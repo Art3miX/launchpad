@@ -1,5 +1,5 @@
 [workspace]
-members = ["packages/*", "contracts/*", "test-suite/", "e2e"]
+members  = ["packages/*", "contracts/*", "test-suite/", "e2e"]
 resolver = "2"
 
 [workspace.package]
@@ -28,7 +28,7 @@ serde               = { version = "1.0.145", default-features = false, features 
 sg1                 = "0.21.8"
 sg2                 = "0.21.8"
 sg4                 = "0.21.8"
-sg721               = "0.21.8"
+sg721               = { version = "0.21.8", path = "packages/sg721" }
 sg721-base          = { version = "0.21.8", path = "contracts/sg721-base" }
 sg721-nt            = { version = "0.21.8", path = "contracts/sg721-nt" }
 sg-controllers      = { version = "0.21.8", path = "packages/controllers" }
