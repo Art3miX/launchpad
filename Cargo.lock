@@ -3288,7 +3288,6 @@ dependencies = [
  "cw-utils",
  "cw721-base",
  "serde",
- "sg-std 0.21.8 (registry+https://github.com/rust-lang/crates.io-index)",
  "thiserror",
 ]
 
